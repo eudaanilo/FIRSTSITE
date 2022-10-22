@@ -1,7 +1,7 @@
 table{
     text-shadow: white 0px 0px 18px;
     background-color: #7FFFD4;
-    width: 1910px;
+    width: 1270px;
     height: 70px;
     margin: 1px;
     margin-left: 1px;
@@ -30,7 +30,8 @@ a:hover, a:active{
     }100%{
         background-position: 0% 50%;
     }
-}.fotothay img{
+}
+/* .fotothay img{
     width: 200px;
     height: 200px; 
     display: inline-block;
@@ -39,7 +40,8 @@ a:hover, a:active{
     margin-top: 100px;
     border-radius: 90%;
     margin-left: 10%;
-}.fotodan img{
+}
+.fotodan img{
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -48,12 +50,23 @@ a:hover, a:active{
     margin-top: 100px;
     border-radius: 90%;
     margin-left: 10%;
-}#informacoes1{
+} */
+#informacoes1{
     margin-top: -20px;
     font-style: italic;
     margin-left: 237px;
     margin-inline-end: 600px;
+}img{
+    border-radius: 400px;
+    display: inline-block;
+    float: left;
+}.divmaior::after{
+    content: " ";
+    clear: both;
+    display: table;
 }
-element.style{
-    display: flex;
+@media screen and  (max-width: 500px){
+    .column{
+        width: 100%;
+    }
 }
