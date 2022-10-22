@@ -1,4 +1,5 @@
-table{
+#menu{
+    border: double;
     text-shadow: white 0px 0px 18px;
     background-color: #7FFFD4;
     width: 1270px;
@@ -17,6 +18,7 @@ a:hover, a:active{
 }.gradient{
     margin: 1px;
     border: double;
+    border-width: 100%;
     align-items: center;
     justify-content: center;
     background: linear-gradient(45deg, #E0FFFF, #B0E0E6, #E0FFFF, 	#F0FFF0, #F5FFFA );
@@ -30,43 +32,34 @@ a:hover, a:active{
     }100%{
         background-position: 0% 50%;
     }
-}
-/* .fotothay img{
-    width: 200px;
-    height: 200px; 
-    display: inline-block;
-    padding-right: 60% 200%;
-    padding: 2px 100px;
-    margin-top: 100px;
-    border-radius: 90%;
-    margin-left: 10%;
-}
-.fotodan img{
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    padding-right: 60% 200%;
-    padding: 2px 100px;
-    margin-top: 100px;
-    border-radius: 90%;
-    margin-left: 10%;
-} */
-#informacoes1{
-    margin-top: -20px;
-    font-style: italic;
-    margin-left: 237px;
-    margin-inline-end: 600px;
 }img{
+    height: 250px;
+    width: 250px;
     border-radius: 400px;
     display: inline-block;
     float: left;
-}.divmaior::after{
+}.fotos1 img{
+    margin-top: 100px;
+    margin-left: 15%;
+}.fotos2 img{
+    margin-top: 100px;
+    margin-left: 30%;
+}.divfotos::after{
     content: " ";
     clear: both;
     display: table;
 }
-@media screen and  (max-width: 500px){
+@media screen and (max-width: 500px){
     .column{
         width: 100%;
     }
+}.info{
+    width: 100%;
+    height: 70px;
+}#info{
+    margin-left: 22%;
+    background: none;
+    float: left;
+}.info #info #ta{
+    margin-left: 221%;
 }
