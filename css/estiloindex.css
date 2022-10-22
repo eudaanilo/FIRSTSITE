@@ -1,0 +1,67 @@
+table{
+    text-shadow: white 0px 0px 18px;
+    background-color: #7FFFD4;
+    width: 1910px;
+    height: 70px;
+    margin: 1px;
+    margin-left: 1px;
+}a:link, a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    }
+a:hover, a:active{
+    color: white;
+}
+.gradient{
+    margin: 1px;
+    border: double;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #E0FFFF, #B0E0E6, #E0FFFF, 	#F0FFF0, #F5FFFA );
+    background-size: 10000% 10000%;
+    animation: colors 13s alternate infinite;
+}@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }50%{
+        background-position: 100% 50%;
+    }100%{
+        background-position: 0% 50%;
+    }
+}
+/* .fotothay img{
+    
+    width: 200px;
+    
+}
+.fotodan img{
+    display: inline-block;   
+} */
+div.fotos{
+    width: 1px;
+    display: inline-block;
+    height: 100px;
+    padding-right: 60% 200%;
+    padding: 2px 100px;
+    margin-top: 100px;
+    border-radius: 90%;
+    margin-left: 10%;
+}
+/* div.fotothay{
+    display: inline-block;
+    height:200px;
+    margin-top: -200px;
+    border-radius: 90%;
+    margin-left: 70%;
+    width: 10px;
+    display: inline-block;
+} */
+/* #informacoes1{
+    margin-top: -20px;
+    font-style: italic;
+    margin-left: 237px;
+    margin-inline-end: 600px;
+} */
