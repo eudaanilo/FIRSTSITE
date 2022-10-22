@@ -14,8 +14,7 @@ table{
     }
 a:hover, a:active{
     color: white;
-}
-.gradient{
+}.gradient{
     margin: 1px;
     border: double;
     align-items: center;
@@ -31,37 +30,30 @@ a:hover, a:active{
     }100%{
         background-position: 0% 50%;
     }
-}
-/* .fotothay img{
-    
+}.fotothay img{
     width: 200px;
-    
-}
-.fotodan img{
-    display: inline-block;   
-} */
-div.fotos{
-    width: 1px;
+    height: 200px; 
     display: inline-block;
-    height: 100px;
     padding-right: 60% 200%;
     padding: 2px 100px;
     margin-top: 100px;
     border-radius: 90%;
     margin-left: 10%;
-}
-/* div.fotothay{
+}.fotodan img{
+    width: 200px;
+    height: 200px;
     display: inline-block;
-    height:200px;
-    margin-top: -200px;
+    padding-right: 60% 200%;
+    padding: 2px 100px;
+    margin-top: 100px;
     border-radius: 90%;
-    margin-left: 70%;
-    width: 10px;
-    display: inline-block;
-} */
-/* #informacoes1{
+    margin-left: 10%;
+}#informacoes1{
     margin-top: -20px;
     font-style: italic;
     margin-left: 237px;
     margin-inline-end: 600px;
-} */
+}
+element.style{
+    display: flex;
+}
