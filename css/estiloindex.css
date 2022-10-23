@@ -48,8 +48,7 @@ a:hover, a:active{
     content: " ";
     clear: both;
     display: table;
-}
-@media screen and (max-width: 500px){
+}@media screen and (max-width: 500px){
     .column{
         width: 100%;
     }
@@ -61,5 +60,19 @@ a:hover, a:active{
     background: none;
     float: left;
 }.info #info #ta{
-    margin-left: 221%;
+    /* margin-left: 221%; */
+}footer p{
+    text-align: center;
+    color: white;
+    background-color: #000;
+    align-self: center;
+    font-family: monospace;
 }
+/* #redes{
+    margin-left: 5%;
+    width: 3%;
+    height: 30px;
+    border-radius: 100px;
+}.redes br{
+
+} */
