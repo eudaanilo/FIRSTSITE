@@ -1,1 +1,1 @@
-alert("O site ainda está em desenvolvimento...")
+// alert("O site ainda está em desenvolvimento...")
