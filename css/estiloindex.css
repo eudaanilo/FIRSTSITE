@@ -12,8 +12,7 @@
     color: rgb(0,0,0);
     transition-duration: 0.5s;
     cursor: pointer;
-    }
-a:hover, a:active{
+}a:hover, a:active{
     color: white;
 }.gradient{
     margin: 0;
