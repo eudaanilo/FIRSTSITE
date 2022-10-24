@@ -54,7 +54,6 @@ a:hover, a:active{
     height: 250px;
     width: 250px;
     border-radius: 400px;
-    display: inline-block;
     float:left;
 }.fotos1 img{
     margin-top: 100px;
