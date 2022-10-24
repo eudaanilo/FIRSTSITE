@@ -35,7 +35,6 @@ a:hover, a:active{
     height: 250px;
     width: 250px;
     border-radius: 400px;
-    display: inline-block;
     float:left;
 }.fotos1 img{
     margin-top: 100px;
@@ -58,8 +57,6 @@ a:hover, a:active{
     margin-left: 22%;
     background: none;
     float: left;
-}.info #info #ta{
-    /* margin-left: 221%; */
 }footer p{
     text-align: center;
     color: white;
