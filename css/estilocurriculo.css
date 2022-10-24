@@ -14,7 +14,6 @@ body{
     width: 100%;
     height: 70px;
     margin: 1px;
-    margin-left: 1px;
 }a:link, a:visited{
     font-size: 20px;
     text-decoration: none;
@@ -25,8 +24,7 @@ body{
 a:hover, a:active{
     color: white;
 }.gradient{
-    margin: 1px;
-    border: double;
+    margin: 0;
     border-width: 100%;
     align-items: center;
     justify-content: center;
@@ -42,10 +40,34 @@ a:hover, a:active{
         background-position: 0% 50%;
     }
 }#infodan{
-    margin-top: 400px;
-    margin-left: 5%;
+    margin-top: 380px;
+    margin-left: 7%;
     float: left;
 }#infothai{
-    margin-top: 400px;
-    margin-left: 50%;
+    margin-top: 380px;
+    margin-left: 55%;
+}table th{
+    font-size: 15px;
+}table td{
+    font-size: 11px;
+}img{
+    height: 250px;
+    width: 250px;
+    border-radius: 400px;
+    display: inline-block;
+    float:left;
+}.fotos1 img{
+    margin-top: 100px;
+    margin-left: 15%;
+}.fotos2 img{
+    margin-top: 100px;
+    margin-left: 30%;
+}.divfotos::after{
+    content: " ";
+    clear: both;
+    display: table;
+}@media screen and (max-width: 500px){
+    .column{
+        width: 100%;
+    }
 }

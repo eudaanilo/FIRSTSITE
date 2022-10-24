@@ -16,8 +16,7 @@
 a:hover, a:active{
     color: white;
 }.gradient{
-    margin: 1px;
-    border: double;
+    margin: 0;
     border-width: 100%;
     align-items: center;
     justify-content: center;
