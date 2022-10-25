@@ -1,11 +1,6 @@
 body{
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}footer p{
-    text-align: center;
-    color: white;
-    background-color: #000;
-    align-self: center;
-    font-family: monospace;
 }#menu{
     font-size: 10px;
     border: double;
@@ -69,4 +64,12 @@ a:hover, a:active{
     .column{
         width: 100%;
     }
+}footer p{
+    margin-bottom: 0;
+    position: static;
+    text-align: center;
+    color: white;
+    background-color: #000;
+    align-self: center;
+    font-family: monospace;
 }
